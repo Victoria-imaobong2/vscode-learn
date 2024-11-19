@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Emma & John's Wedding</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="scripts.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Emma & John's Wedding</h1>
+      <p>Join us for a day of love and celebration</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#details">Event Details</a></li>
+        <li><a href="#rsvp">RSVP</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="hero-image">
+      <img src="hero.jpg" alt="Wedding Photo">
+    </div>
+    <div class="intro">
+      <h2>Welcome to Our Wedding</h2>
+      <p>We're so excited to share this special day with you! Here's everything you need to know about our upcoming wedding.</p>
+    </div>
+  </section>
+
+  <section id="details">
+    <h2>Event Details</h2>
+    <div class="details">
+      <p><strong>Wedding Date:</strong> June 15, 2025</p>
+      <p><strong>Location:</strong> The Grand Venue, 123 Love Street, Cityville</p>
+      <p><strong>Time:</strong> 3:00 PM</p>
+      <p><strong>Dress Code:</strong> Formal Attire</p>
+    </div>
+  </section>
+
+  <section id="rsvp">
+    <h2>RSVP</h2>
+    <p>Please let us know if you'll be able to attend our special day.</p>
+    <form id="rsvpForm">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="attending">Will you be attending?</label>
+      <select id="attending" name="attending" required>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+
+      <button type="submit">Submit RSVP</button>
+    </form>
+    <div id="rsvpMessage"></div>
+  </section>
+
+  <section id="gallery">
+    <h2>Photo Gallery</h2>
+    <div class="gallery">
+      <img src="wedding-timeline-guide-001-2048x1365.jpg.webp-t" alt="Wedding Photo 1">
+      <img src="gallery2.jpg" alt="Wedding Photo 2">
+      <img src="gallery3.jpg" alt="Wedding Photo 3">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Emma & John. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

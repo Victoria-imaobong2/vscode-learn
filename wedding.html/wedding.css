@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #f8b6c4;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: white;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Home section */
+  #home {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .intro {
+    margin-top: 20px;
+  }
+  
+  .intro h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .intro p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Event details section */
+  #details {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  #details h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .details p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  /* RSVP Section */
+  #rsvp {
+    padding: 40px 0;
+    background-color: #f8b6c4;
+    color: white;
+    text-align: center;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  form label {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #f8b6c4;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #f0758c;
+  }
+  
+  /* Gallery Section */
+  #gallery {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  #gallery h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin: 15px;
+    border-radius: 8px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }

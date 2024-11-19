@@ -1,0 +1,16 @@
+div{
+    
+    background-color: darkturquoise;
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    
+}
+div.box{
+    width: 100%;
+    overflow: auto;
+}
+div.box div{
+    width:33%;
+    float: left;
+}

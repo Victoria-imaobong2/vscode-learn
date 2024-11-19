@@ -1,0 +1,18 @@
+table {
+    border: 1px solid navy;
+   
+    border-collapse: collapse;
+
+}
+th, td{
+    padding: 8px;
+    
+    border: 1px solid navy;
+}
+tr :nth-child(even){
+    background-color: aqua;
+    border-bottom: 1px;
+}
+tr:hover{
+    background-color: coral;
+}
